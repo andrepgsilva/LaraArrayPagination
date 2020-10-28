@@ -1,0 +1,29 @@
+{
+    "name": "andrepgsilva/lara-array-pagination",
+    "description": "Make Laravel Pagination works with array",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Silva",
+            "email": "andrepgsilva@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Andrepgsilva\\LaraArrayPagination\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Andrepgsilva\\LaraArrayPagination\\Providers\\LaraArrayPaginationServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "laravel/framework": "^8.11"
+    }
+}
