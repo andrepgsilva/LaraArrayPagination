@@ -43,7 +43,7 @@ abstract class Factory
      * @param Array $dataForOverride Override object default data
      * @param Integer $count Number of objects to create
      * 
-     * @return Object|Illuminate\Support\Collection
+     * @return Illuminate\Support\Collection
      **/
     public function create($dataForOverride = null)
     {
