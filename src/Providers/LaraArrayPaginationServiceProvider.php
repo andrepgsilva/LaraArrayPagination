@@ -13,7 +13,7 @@ class LaraArrayPaginationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        
+        //
     }
 
     /**
@@ -23,6 +23,6 @@ class LaraArrayPaginationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(dirname(__DIR__) . '/routes.php');
+        //
     }
 }

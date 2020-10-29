@@ -20,6 +20,8 @@ class ArrayPaginator
      **/
     public function paginate($items, $perPage = 3, $options = [])
     {
+        TypeVerification::assert($items, 'array');
+
         $currentPage = $this->getCurrentPage($items, $perPage);
         $itemsSliced = array_slice($items, ($currentPage - 1) * $perPage, $perPage);
         

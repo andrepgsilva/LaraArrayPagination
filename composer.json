@@ -19,11 +19,15 @@
         "laravel": {
             "providers": [
                 "Andrepgsilva\\LaraArrayPagination\\Providers\\LaraArrayPaginationServiceProvider"
+            ],
+            "dont-discover": [
+                "*"
             ]
         }
     },
     "require": {},
     "require-dev": {
-        "laravel/framework": "^8.11"
+        "laravel/framework": "^8.11",
+        "orchestra/testbench": "^6.3"
     }
 }
