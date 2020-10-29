@@ -13,12 +13,12 @@ $fruits = ['orange', 'apple', 'watermelon', 'banana'];
 
 $paginator = new ArrayPaginator();
 // That's it!
-$paginatedContent = $paginator->paginate($objects);
+$paginatedContent = $paginator->paginate($fruits);
 ```
 ## Custom pagination
 
 ```php
 // You can pass the number of page results. The default is 3.
 // Even the URL path that you want use
-$paginator->paginate($objects, $perPage = 3, ['path' => 'example@example.com']);
+$paginator->paginate($fruits, $perPage = 3, ['path' => 'example@example.com']);
 ```
