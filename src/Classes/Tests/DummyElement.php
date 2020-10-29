@@ -1,6 +1,6 @@
 <?php
 
-namespace Andrepgsilva\LaraArrayPagination\Classes;
+namespace Andrepgsilva\LaraArrayPagination\Classes\Tests;
 
 /**
  * Dummy class for tests 

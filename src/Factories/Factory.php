@@ -7,7 +7,7 @@ abstract class Factory
     protected $className;
     protected $count = 1;
     protected $factoriesNamespace = 'Andrepgsilva\\LaraArrayPagination\\Factories\\';
-    protected $classesNamespace = 'Andrepgsilva\\LaraArrayPagination\\Classes\\';
+    protected $classesNamespace = 'Andrepgsilva\\LaraArrayPagination\\Classes\\Tests\\';
 
     public function __construct()
     {   
