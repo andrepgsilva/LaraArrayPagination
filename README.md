@@ -20,5 +20,5 @@ $paginatedContent = $paginator->paginate($fruits);
 ```php
 // You can pass the number of page results. The default is 3.
 // Even the URL path that you want use
-$paginator->paginate($fruits, $perPage = 3, ['path' => 'example@example.com']);
+$paginator->paginate($fruits, $perPage = 3, ['path' => 'http://example.com']);
 ```
